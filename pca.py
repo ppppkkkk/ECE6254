@@ -57,3 +57,4 @@ plt.xlabel('First component')
 plt.ylabel('Second component')
 plt.show()
 
+print("status")
