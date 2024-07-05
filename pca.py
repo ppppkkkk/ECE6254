@@ -56,3 +56,4 @@ plt.title('PCA and K-Means')
 plt.xlabel('First component')
 plt.ylabel('Second component')
 plt.show()
+
