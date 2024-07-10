@@ -1,5 +1,5 @@
 import ast
-
+import torch.nn as nn
 
 class FunctionNameCollector(ast.NodeVisitor):
     def __init__(self):
@@ -10,7 +10,6 @@ class FunctionNameCollector(ast.NodeVisitor):
 
 
 # 用您的代码替换以下字符串
-code = """
 class SentenceTransformer(nn.Sequential):
     """
     Loads or create a SentenceTransformer model, that can be used to map sentences / text to embeddings.
@@ -916,7 +915,7 @@ class SentenceTransformer(nn.Sequential):
         #print(type(self._first_module()))
         self._first_module().max_seq_length = value
 
-"""
+
 
 tree = ast.parse(code)
 collector = FunctionNameCollector()

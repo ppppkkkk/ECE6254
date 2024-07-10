@@ -15,10 +15,10 @@ def angle_between(point1, point2):
     norms = np.linalg.norm(point1) * np.linalg.norm(point2)
     return np.arccos(dot_product / norms)
 
-
 def compute_distances_angles(data):
     num_points = data.shape[0]
     distances = []
+
     angles = []
 
     for i in range(num_points):

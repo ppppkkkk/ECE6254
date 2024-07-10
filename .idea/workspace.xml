@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed57bdc-0bbb-482c-b811-95e831067590" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/second/reader_new_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dimensionality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dimensionality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asttree.py" beforeDir="false" afterPath="$PROJECT_DIR$/asttree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second/degree.py" beforeDir="false" afterPath="$PROJECT_DIR$/second/degree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +37,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "B:/6254_HW/second/simi.py",
+    "last_opened_file_path": "B:/6254_HW/second",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\6254_HW\second" />
       <recent name="B:\6254_HW\6669" />
       <recent name="B:\6254_HW\data" />
     </key>

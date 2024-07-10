@@ -30,9 +30,9 @@ def custom_dataset_split(data, labels, ratios):
     np.random.shuffle(indices)
 
     train_indices = indices[:train_length]
+    print(train_indices)
     val_indices = indices[train_length:train_length + val_length]
     test_indices = indices[train_length + val_length:]
-    print(data)
     # Splitting data and labels
     splits = {
         "train_data": data[train_indices],
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     ratios = [60, 30, 10]
     result = custom_dataset_split(data, labels, ratios)
     # Printing the lengths of the splits
-    print(result['train_labels'])
+    # print(result['train_labels'])
     print(f"Training data length: {len(result['train_data'])}")
     print(f"Validation data length: {len(result['val_data'])}")
     print(f"Test data length: {len(result['test_data'])}")
